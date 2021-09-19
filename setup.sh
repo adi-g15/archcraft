@@ -104,13 +104,15 @@ set_omz () {
 	_EOF_
 	# Append some aliases
 	cat >> $DIR/iso/airootfs/etc/skel/.zshrc <<- _EOF_
+		alias vim=nvim
+
 		# omz
-		alias zshconfig="geany ~/.zshrc"
+		alias zshconfig="vim ~/.zshrc"
 		alias ohmyzsh="thunar ~/.oh-my-zsh"
 
 		# ls
 		alias l='ls -lh'
-		alias ll='ls -lah'
+		alias ll='ls -lAh'
 		alias la='ls -A'
 		alias lm='ls -m'
 		alias lr='ls -R'
@@ -121,7 +123,8 @@ set_omz () {
 		alias gi='git init'
 		alias ga='git add'
 		alias gc='git commit -m'
-		alias gp='git push origin master'
+		alias gp='git push origin'
+		alias gss='git status -s'
 	_EOF_
 	echo -e ${ORANGE}"\n[*] ${GREEN}Done. OMZ added successfully.\n"
 }

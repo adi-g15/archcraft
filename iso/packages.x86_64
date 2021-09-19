@@ -39,7 +39,7 @@ gpart
 gpm
 gptfdisk
 hdparm
-intel-ucode
+#intel-ucode
 ipw2100-fw
 ipw2200-fw
 irssi
@@ -77,7 +77,7 @@ ntfs-3g
 nvme-cli
 openconnect
 openssh
-openvpn
+#openvpn
 partclone
 parted
 partimage
@@ -109,7 +109,7 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
+neovim
 vpnc
 wireless-regdb
 wireless_tools
@@ -123,12 +123,12 @@ zsh
 xorg-server
 xorg-xbacklight
 xorg-fonts-misc
-xorg-xfd
+#xorg-xfd
 xorg-xkill
 xorg-xrandr
 xorg-xrdb
 xorg-xset
-xdotool
+#xdotool
 xorg-xmodmap
 xorg-xev
 
@@ -141,17 +141,17 @@ xf86-input-libinput
 #xf86-input-wacom
 
 ##-------- GPU Drivers (Intel/AMD/VM) --------##
-xf86-video-fbdev
-xf86-video-vesa
-xf86-video-intel
+#xf86-video-fbdev
+#xf86-video-vesa
+#xf86-video-intel
 xf86-video-amdgpu
-xf86-video-ati
+#xf86-video-ati
 
 ##-------- GPU Drivers (Nvidia) --------------##
-xf86-video-nouveau
-nvidia
-nvidia-utils
-nvidia-settings
+#xf86-video-nouveau
+#nvidia
+#nvidia-utils
+#nvidia-settings
 
 #nvidia-dkms
 #nvidia-prime
@@ -167,15 +167,15 @@ sxhkd
 ##-------- Programs --------------------------##
 
 ## Networking / Internet -----
-bmon
-inetutils
-midori
+#bmon
+#inetutils
+#midori
 networkmanager
-networkmanager-openvpn
+#networkmanager-openvpn
 bluez
 bluez-utils
-nethogs
-nm-connection-editor
+#nethogs
+#nm-connection-editor
 wget
 
 ## Printers -----
@@ -192,14 +192,15 @@ pulseaudio-alsa
 pulseaudio-equalizer-ladspa
 
 ## Files -----
-ranger
+#ranger
+vifm
 pcmanfm
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
 zip
-p7zip
+#p7zip
 unzip
 unrar
 xarchiver
@@ -233,7 +234,7 @@ atril
 geany
 geany-plugins
 leafpad
-vim
+nvim
 
 ## Fonts -----
 noto-fonts
