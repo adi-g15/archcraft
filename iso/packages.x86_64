@@ -8,17 +8,17 @@ archinstall
 b43-fwcutter
 base
 bind-tools
-brltty
-broadcom-wl
-btrfs-progs
-clonezilla
-cloud-init
-crda
+#brltty
+#broadcom-wl
+#btrfs-progs
+#clonezilla
+#cloud-init
+#crda
 cryptsetup
 darkhttpd
-ddrescue
-dhclient
-dhcpcd
+#ddrescue
+#dhclient
+#dhcpcd
 diffutils
 dialog
 dmraid
@@ -35,14 +35,14 @@ f2fs-tools
 fatresize
 fsarchiver
 gnu-netcat
-gpart
+#gpart
 gpm
-gptfdisk
+#gptfdisk
 hdparm
 #intel-ucode
-ipw2100-fw
-ipw2200-fw
-irssi
+#ipw2100-fw
+#ipw2200-fw
+#irssi
 iw
 iwd
 jfsutils
@@ -75,12 +75,12 @@ nilfs-utils
 nmap
 ntfs-3g
 nvme-cli
-openconnect
+#openconnect
 openssh
 #openvpn
-partclone
+#partclone
 parted
-partimage
+#partimage
 pcsclite
 ppp
 pptpclient
@@ -102,7 +102,7 @@ systemd-resolvconf
 tcpdump
 terminus-font
 termite-terminfo
-testdisk
+#testdisk
 tmux
 tpm2-tss
 udftools
@@ -180,21 +180,24 @@ wget
 
 ## Printers -----
 cups
-gutenprint
+#gutenprint
+#specific driver for my printer
+epson-inkjet-printer-201401w
 
 ## Sound -----
-alsa-plugins
-alsa-tools
+#alsa-plugins
+#alsa-tools
 alsa-utils
-pavucontrol
-pulseaudio
-pulseaudio-alsa
-pulseaudio-equalizer-ladspa
+pipewire-pulse
+#pavucontrol
+#pulseaudio
+#pulseaudio-alsa
+#pulseaudio-equalizer-ladspa
 
 ## Files -----
 #ranger
 vifm
-pcmanfm
+#pcmanfm
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -221,7 +224,8 @@ gst-plugins-good
 gst-plugins-ugly
 mpc
 mpd
-mplayer
+vlc
+#mplayer
 ncmpcpp
 tumbler
 
@@ -230,11 +234,11 @@ alacritty
 xfce4-terminal
 
 ## Docs / Editors -----
-atril
-geany
-geany-plugins
-leafpad
-nvim
+#atril
+#geany
+#geany-plugins
+#leafpad
+neovim
 
 ## Fonts -----
 noto-fonts
@@ -300,13 +304,13 @@ calamares-config
 mkinitcpio-openswap
 
 ##-------- Virtual Box --------------##
-virtualbox-guest-utils
+#virtualbox-guest-utils
 linux-headers
 
 ##-------- VM Ware ------------------##
-open-vm-tools
-xf86-input-vmmouse
-xf86-video-vmware
+#open-vm-tools
+#xf86-input-vmmouse
+#xf86-video-vmware
 
 ##-------- grub ---------------------##
 os-prober
@@ -352,7 +356,7 @@ perl-linux-desktopfiles
 plymouth
 polybar
 pyroom
-timeshift
+#timeshift
 toilet
 tty-clock
 unimatrix-git
